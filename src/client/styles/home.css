@@ -13,9 +13,10 @@
 /* 2nd Container */
 .inverseColors {
     color: white;
-    a, p, h1, h2, h3, h4 {
-      color: white;
-    }
+}
+
+.inverseColors a, p, h1, h2, h3, h4 {
+  color: white;
 }
 
 .headerContent {
@@ -30,10 +31,11 @@
   margin-top: 23px;
   padding: 0;
   padding-bottom: 38px;
-  img {
-    width: 100%;
-    max-height: 156px;
-  }
+}
+
+.headerContent .logoText img {
+  width: 100%;
+  max-height: 156px;
 }
 
 .headerContent .slogan {
@@ -45,10 +47,6 @@
   padding-right: 0;
 }
 
-.headerContent img {
-  width: 100%;
-}
-
 .headerContent .headerInfo {
   font-size: 1.2em;
   font-weight: 600;
@@ -58,15 +56,17 @@
   padding-right: 0;
   text-align: center;
   border-bottom: 1px solid $light-trans-grey;
+  color: #41a9f4;
 }
 
 /* Sections */
 .headerContent .contentInfo {
-  border: 2px solid #fff;
-  border-radius: 5px;
+  border: 2px solid #41a9f4;
+  border-radius: 10px;
   margin: 10px auto;
 }
 
-.headerContent .contentInfo h2 {
+.headerContent h1, .headerContent .contentInfo h2 {
   text-align: center;
+  color: #f4b042;
 }

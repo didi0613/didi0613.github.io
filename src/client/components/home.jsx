@@ -1,19 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {connect} from "react-redux";
-/**/
-import Notifications from "react-notify-toast";
-/**/
-import {toggleCheck, incNumber, decNumber} from "../actions";
+
 import styles from "../styles/home.css";
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import electrodeLogo from "../images/electrode-logo.svg";
 
 class Home extends React.Component {
   render() {
-    const props = this.props;
-    const {checked, value} = props;
-
     return (
       <div>
         <div className={`${styles.containerFluid} ${styles.nightSky}`}>
@@ -79,27 +73,15 @@ class Home extends React.Component {
 }
 
 Home.propTypes = {
-  checked: PropTypes.bool,
-  value: PropTypes.number.isRequired
 };
 
 const mapStateToProps = (state) => {
   return {
-    checked: state.checkBox.checked, value: state.number.value
   };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onChangeCheck: () => {
-      dispatch(toggleCheck());
-    },
-    onIncrease: () => {
-      dispatch(incNumber());
-    },
-    onDecrease: () => {
-      dispatch(decNumber());
-    }
   };
 };
 
