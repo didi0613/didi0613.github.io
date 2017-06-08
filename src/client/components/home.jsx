@@ -67,7 +67,7 @@ class Home extends React.Component {
             {/* Thoughts */}
             <Grid>
               <Row>
-                <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={styles.contentBorder}>
+                <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={`${styles.contentBorder} ${styles.feedback}`}>
                   <h2>
                     Food For Thoughts
                   </h2>

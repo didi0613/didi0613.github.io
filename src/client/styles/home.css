@@ -67,7 +67,21 @@
   margin-bottom: 10px;
 }
 
+.headerContent .contentBorder.feedback {
+  background-color: #fff;
+}
+
+/* Text Color */
 .headerContent h1, .headerContent .contentBorder h2 {
   text-align: center;
   color: #f4b042;
+}
+
+.headerContent .contentBorder.feedback h2 {
+  color: #41a9f4;
+}
+
+.headerContent .contentBorder.feedback p {
+  color: #99998c;
+  text-align: center;
 }
