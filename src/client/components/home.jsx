@@ -12,6 +12,7 @@ class Home extends React.Component {
       <div>
         <div className={`${styles.containerFluid} ${styles.nightSky}`}>
           <div className={`${styles.headerContent} ${styles.inverseColors}`}>
+            {/* Electrode Logo */}
             <Grid>
               <Row>
                 <Col id="mobile-logo-text" sm={8} smOffset={2} xs={10} xsOffset={1} className={styles.logoText}>
@@ -19,6 +20,8 @@ class Home extends React.Component {
                 </Col>
               </Row>
             </Grid>
+
+            {/* Electrode Banner */}
             <Grid>
               <Row>
                 <Col id="mobile-slogan" sm={8} smOffset={2} xs={10} xsOffset={1} className={styles.slogan}>
@@ -28,6 +31,8 @@ class Home extends React.Component {
                 </Col>
               </Row>
             </Grid>
+
+            {/* Electrode Banner Info */}
             <Grid>
               <Row>
                 <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={styles.headerInfo}>
@@ -37,9 +42,10 @@ class Home extends React.Component {
               </Row>
             </Grid>
 
+            {/* Releases & Fun */}
             <Grid>
               <Row>
-                <Col sm={4} xs={4} className={styles.contentInfo}>
+                <Col xsOffset={2} xs={3} className={styles.contentBorder}>
                   <h2>
                     New Releases
                   </h2>
@@ -47,7 +53,7 @@ class Home extends React.Component {
                     The latest release of Electrode includes new features & and fixes to make your experience and our product faster and better than ever. See what is new.
                   </p>
                 </Col>
-                <Col sm={4} xs={4} className={styles.contentInfo}>
+                <Col xsOffset={2} xs={3} className={styles.contentBorder}>
                   <h2>
                     Fun Facts
                   </h2>
@@ -55,7 +61,13 @@ class Home extends React.Component {
                     Digest of different Electrode stats, interesting conversations on Electrode Channel, and more.
                   </p>
                 </Col>
-                <Col sm={8} xs={8} className={styles.contentInfo}>
+              </Row>
+            </Grid>
+
+            {/* Thoughts */}
+            <Grid>
+              <Row>
+                <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={styles.contentBorder}>
                   <h2>
                     Food For Thoughts
                   </h2>
