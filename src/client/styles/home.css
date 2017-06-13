@@ -1,3 +1,6 @@
+@value colors: "./colors.css";
+@value body-background, white from colors;
+
 /* Container */
 .containerFluid {
   padding: 0px;
@@ -6,7 +9,7 @@
 .nightSky {
   padding: 0;
   margin: 0;
-  background-color: #00294b;
+  background-color: body-background;
 }
 
 /* 2nd Container */

@@ -1,3 +1,6 @@
+@value colors: "./colors.css";
+@value title-orange, slogan-light-blue, slogan-border-grey from colors;
+
 /* Banner */
 #banner .logoText {
   margin-top: 23px;
@@ -11,7 +14,7 @@
 }
 
 #banner .slogan {
-  border-top: 1px solid rgba(203,203,203,0.32);
+  border-top: 1px solid slogan-border-grey;
   padding-top: 1.1em;
   margin-top: -.6em;
   text-align: center;
@@ -27,12 +30,11 @@
   padding-bottom: 1.5em;
   padding-right: 0;
   text-align: center;
-  border-bottom: 1px solid $light-trans-grey;
-  color: #41a9f4;
+  color: slogan-light-blue;
 }
 
 /* Text Color */
 #banner h1 {
   text-align: center;
-  color: rgb(255, 193, 32);
+  color: title-orange;
 }
