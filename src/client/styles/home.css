@@ -7,7 +7,6 @@
   padding: 0;
   margin: 0;
   background-color: #00294b;
-  height: 100vh;
 }
 
 /* 2nd Container */
@@ -74,14 +73,21 @@
 /* Text Color */
 .headerContent h1, .headerContent .contentBorder h2 {
   text-align: center;
-  color: #f4b042;
+  color: rgb(255, 193, 32);
 }
 
 .headerContent .contentBorder.feedback h2 {
   color: #41a9f4;
 }
 
-.headerContent .contentBorder.feedback p {
+.headerContent .contentBorder.feedback p, .headerContent .contentBorder.feedback h4 {
   color: #99998c;
+}
+
+.headerContent .contentBorder.feedback p {
+  text-align: left;
+}
+
+.headerContent .contentBorder.feedback h4 {
   text-align: center;
 }
