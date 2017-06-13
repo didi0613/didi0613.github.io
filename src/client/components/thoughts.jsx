@@ -7,7 +7,7 @@ import thoughtsStyles from "../styles/thoughts.css";
 
 const Thoughts = () => {
   return (
-    <Grid>
+    <Grid id={thoughtsStyles.thoughts}>
       <Row>
         <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={`${thoughtsStyles.thoughtsBorder} ${thoughtsStyles.feedback}`}>
           <h2>

@@ -2,14 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Grid, Row, Col } from "react-flexbox-grid";
-import styles from "../styles/home.css";
 import releaseAndFactStyles from "../styles/release-and-fact.css";
 
 const ReleasesAndFact = () => {
   return (
     <Grid id={releaseAndFactStyles.releaseAndFact}>
       <Row>
-        <Col xs={3} xsOffset={2} className={styles.contentBorder}>
+        <Col xs={3} xsOffset={2} className={releaseAndFactStyles.contentBorder}>
           <h2>
             New Releases
           </h2>
@@ -34,7 +33,7 @@ const ReleasesAndFact = () => {
             with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         </Col>
-        <Col xs={3} xsOffset={2} className={styles.contentBorder}>
+        <Col xs={3} className={`${releaseAndFactStyles.contentBorder} ${releaseAndFactStyles.leftOffset}`}>
           <h2>
             Fun Facts
           </h2>
