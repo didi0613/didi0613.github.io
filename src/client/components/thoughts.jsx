@@ -3,12 +3,13 @@ import PropTypes from "prop-types";
 
 import { Grid, Row, Col } from "react-flexbox-grid";
 import styles from "../styles/home.css";
+import thoughtsStyles from "../styles/thoughts.css";
 
 const Thoughts = () => {
   return (
     <Grid>
       <Row>
-        <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={`${styles.contentBorder} ${styles.feedback}`}>
+        <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={`${thoughtsStyles.thoughtsBorder} ${thoughtsStyles.feedback}`}>
           <h2>
             Food For Thoughts
           </h2>

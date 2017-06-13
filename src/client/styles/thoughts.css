@@ -1,0 +1,33 @@
+/* Sections */
+.thoughtsBorder {
+  border: 2px solid #41a9f4;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Text Color */
+.thoughtsBorder h2 {
+  text-align: center;
+  color: rgb(255, 193, 32);
+}
+
+.thoughtsBorder.feedback {
+  background-color: #fff;
+}
+
+.thoughtsBorder.feedback p, .thoughtsBorder.feedback h4 {
+  color: #99998c;
+}
+
+.thoughtsBorder.feedback p {
+  text-align: left;
+}
+
+.thoughtsBorder.feedback h4 {
+  text-align: center;
+}
+
+.thoughtsBorder.feedback h2 {
+  color: #41a9f4;
+}

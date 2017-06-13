@@ -66,28 +66,8 @@
   margin-bottom: 10px;
 }
 
-.headerContent .contentBorder.feedback {
-  background-color: #fff;
-}
-
 /* Text Color */
 .headerContent h1, .headerContent .contentBorder h2 {
   text-align: center;
   color: rgb(255, 193, 32);
-}
-
-.headerContent .contentBorder.feedback h2 {
-  color: #41a9f4;
-}
-
-.headerContent .contentBorder.feedback p, .headerContent .contentBorder.feedback h4 {
-  color: #99998c;
-}
-
-.headerContent .contentBorder.feedback p {
-  text-align: left;
-}
-
-.headerContent .contentBorder.feedback h4 {
-  text-align: center;
 }
