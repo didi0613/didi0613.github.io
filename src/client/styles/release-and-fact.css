@@ -1,27 +1,36 @@
 @value colors: "./colors.css";
-@value title-orange, slogan-light-blue, black from colors;
-
-#releaseAndFact img {
-  width: 100%;
-  border: 1px solid black;
-  border-radius: 15px;
-}
+@value walmart-yellow, walmart-blue, black, walmart-blue, walmart-yellow, white from colors;
 
 #releaseAndFact .contentBorder {
   flex-basis: 30%;
   max-width: 30%;
 
-  border: 2px solid slogan-light-blue;
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-#releaseAndFact .contentBorder.leftOffset {
-  margin-left: 6.5%;
-}
-
 #releaseAndFact .contentBorder h2 {
  text-align: center;
- color: title-orange;
+}
+
+#releaseAndFact .contentBorder img {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+#releaseAndFact .contentBorder.release {
+  border: 2px solid walmart-blue;
+  background-color: walmart-blue;
+}
+
+#releaseAndFact .contentBorder.fact {
+  border: 2px solid walmart-blue;
+  margin-left: 6.5%;
+  background-color: white;
+}
+
+#releaseAndFact .contentBorder.fact h4, #releaseAndFact .contentBorder.fact p {
+  color: black;
 }

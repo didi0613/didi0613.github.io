@@ -4,14 +4,15 @@ import PropTypes from "prop-types";
 import { Grid, Row, Col } from "react-flexbox-grid";
 import releaseAndFactStyles from "../styles/release-and-fact.css";
 
+import Release from "../images/release.gif";
+
 const ReleasesAndFact = () => {
   return (
     <Grid id={releaseAndFactStyles.releaseAndFact}>
       <Row>
-        <Col xs={3} xsOffset={2} className={releaseAndFactStyles.contentBorder}>
-          <h2>
-            New Releases
-          </h2>
+        <Col xs={3} xsOffset={2} className={`${releaseAndFactStyles.contentBorder} ${releaseAndFactStyles.release}`}>
+          <img src={ Release } />
+          <h2>New Releases</h2>
           <h4>New Component Archetype</h4>
           <p>
             Electrode Component Archetype helps developers to quickly build react components.
@@ -33,27 +34,34 @@ const ReleasesAndFact = () => {
             with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         </Col>
-        <Col xs={3} className={`${releaseAndFactStyles.contentBorder} ${releaseAndFactStyles.leftOffset}`}>
-          <h2>
-            Fun Facts
-          </h2>
+        <Col xs={3} className={`${releaseAndFactStyles.contentBorder} ${releaseAndFactStyles.fact}`}>
+          <img src={"http://4.bp.blogspot.com/-V6fDG4Lr-wU/TjGSYM3kPNI/AAAAAAAABF0/7T2YJ0ov8Kw/s1600/DidYouKnow_title.gif"} />
           <h4>
             How many teeth does cow have?
           </h4>
           <p>
             Cow's teeth are different from ours. On the top front, cows have a tough pad of skin instead of teeth. They have 8 incisors on the bottom front and 6 strong molars on the top and bottom of each side to grind their food. Cows have a total of 32 teeth.
           </p>
+
           <h4>
             What does moon smells like?
           </h4>
           <p>
             Moon Dust Smells Like Spent Gunpowder. Today I found out Moon dust smells like spent gunpowder. This is according to the astronauts that have had the opportunity to smell fresh Moon dust that had been tracked into the lunar module after excursions out on the surface of the Moon.
           </p>
+
           <h4>
             Are comets made of ice?
           </h4>
           <p>
             They are composed of rock, dust, ice and frozen gases such as carbon monoxide, carbon dioxide, methane, and ammonia. Sometimes called dirty snowballs, recent studies have shown that the ice of a comet is covered by a crust. Comets also contain a variety of organic compounds as well as the gases already mentioned.
+          </p>
+          
+          <h4>
+            How long does it take to land on the ground when skydiving?
+          </h4>
+          <p>
+            Freefall lasts about sixty seconds, depending a lot on body-weight, surface area, and a number of other factors. You will then have about five minutes under canopy to enjoy the view and the ride. In Chicagoland Skydiving Center's Super Twin Otter, it takes only about 12 - 15 minutes to get to 14,500 feet.
           </p>
         </Col>
       </Row>

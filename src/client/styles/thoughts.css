@@ -1,40 +1,37 @@
 @value colors: "./colors.css";
-@value title-orange, slogan-light-blue, white, feedback-text-grey, feedback-title-blue from colors;
+@value walmart-yellow, walmart-blue, white, black, feedback-text-grey from colors;
 
 /* Sections */
 #thoughts .thoughtsBorder {
-  border: 2px solid slogan-light-blue;
+  border: 2px solid walmart-yellow;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
-/* Text Color */
-#thoughts .thoughtsBorder h2 {
-  text-align: center;
-  color: title-orange;
+#thoughts .thoughtsBorder h2,
+#thoughts .thoughtsBorder img {
+  display: inline;
+  vertical-align: middle;
 }
 
+#thoughts .thoughtsBorder img {
+  width: 100px;
+  margin: 10px;
+}
+
+/* Text Alignment & Color */
 #thoughts .thoughtsBorder.feedback {
-  background-color: white;
+  background-color: walmart-yellow;
 }
 
-#thoughts .thoughtsBorder.feedback p, .thoughtsBorder.feedback h4 {
-  color: feedback-text-grey;
+#thoughts .thoughtsBorder.feedback p,
+#thoughts .thoughtsBorder.feedback h4,
+#thoughts .thoughtsBorder.feedback h2 {
+  color: black;
 }
 
-#thoughts .thoughtsBorder.feedback p {
-  text-align: left;
-}
-
-#thoughts .thoughtsBorder.feedback h4 {
-  text-align: center;
-}
-
+#thoughts .thoughtsBorder.feedback p,
 #thoughts .thoughtsBorder.feedback h4.contentTitle {
   text-align: left;
-}
-
-#thoughts .thoughtsBorder.feedback h2 {
-  color: feedback-title-blue;
 }

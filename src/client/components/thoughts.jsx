@@ -10,12 +10,9 @@ const Thoughts = () => {
     <Grid id={thoughtsStyles.thoughts}>
       <Row>
         <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={`${thoughtsStyles.thoughtsBorder} ${thoughtsStyles.feedback}`}>
-          <h2>
-            Food For Thoughts
-          </h2>
-          <h4>
-            Blog posts, Electrode mentions, case studies, and your feedback.
-          </h4>
+          <h2>Food For Thoughts</h2>
+          <img src={"https://cdn2.iconfinder.com/data/icons/gunther/128/thoughts-128.png"} alt="" />
+
           <h4 className={thoughtsStyles.contentTitle}>Blog posts</h4>
           <p>
             The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.

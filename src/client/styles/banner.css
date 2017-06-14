@@ -1,5 +1,5 @@
 @value colors: "./colors.css";
-@value title-orange, slogan-light-blue, slogan-border-grey from colors;
+@value walmart-yellow, slogan-light-blue, slogan-border-grey from colors;
 
 /* Banner */
 #banner .logoText {
@@ -22,6 +22,16 @@
   padding-right: 0;
 }
 
+#banner .slogan img {
+  display: inline;
+  width: 120px;
+  margin-right: 10px;
+}
+
+#banner .slogan h1 {
+  display: inline;
+}
+
 #banner .headerInfo {
   font-size: 1.2em;
   font-weight: 600;
@@ -36,5 +46,42 @@
 /* Text Color */
 #banner h1 {
   text-align: center;
-  color: title-orange;
+  color: walmart-yellow;
+}
+
+#banner blockquote{
+  display:block;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+#banner blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: slogan-border-grey;
+
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+#banner blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+#banner blockquote em{
+  font-style: italic;
 }
