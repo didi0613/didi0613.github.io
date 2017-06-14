@@ -24,14 +24,11 @@ const ReleasesAndFact = () => {
             If you want to try out the latest electrode component, please generate them by the latest electrode-generator.
           </p>
           <h4>
-            Lorem Ipsum
+            Eletrode Generator
           </h4>
           <p>
-            is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Electrode provides developers with generators that generate an electrode application or component for them. The Open source generator generator-electrode contains an application generator yo electrode, a component generator yo electrode:component . With the new archetype structure, there is a generator specifically for adding more components to an existing repoyo electrode:component-add.
+            The same functionality is extended by the walmart electrode generator @walmart/ generator-wml-electrode. This generator provides functionality specific to walmart such as adding a swapi-client to your app using yo @walmart/wml-electrode:add-swapi-client. Check out the latest generator by installing them using npm install -g @walmart/generator-wml-electrode.
           </p>
         </Col>
         <Col xs={3} className={`${releaseAndFactStyles.contentBorder} ${releaseAndFactStyles.fact}`}>
