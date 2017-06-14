@@ -1,12 +1,27 @@
 @value colors: "./colors.css";
 @value walmart-yellow, walmart-blue, white, black, feedback-text-grey from colors;
 
+@value fonts: "./fonts.css";
+@value title-font-size, subtitle-font-size, text-font-size from fonts;
+
 /* Sections */
 #thoughts .thoughtsBorder {
   border: 2px solid walmart-yellow;
   border-radius: 10px;
   margin-top: 50px;
   margin-bottom: 100px;
+}
+
+#thoughts .thoughtsBorder h2 {
+  font-size: title-font-size;
+}
+
+#thoughts .thoughtsBorder h4 {
+  font-size: subtitle-font-size;
+}
+
+#thoughts .thoughtsBorder p {
+  font-size: text-font-size;
 }
 
 #thoughts .thoughtsBorder h2,

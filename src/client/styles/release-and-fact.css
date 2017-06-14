@@ -1,6 +1,9 @@
 @value colors: "./colors.css";
 @value walmart-yellow, walmart-blue, black, walmart-blue, walmart-yellow, white from colors;
 
+@value fonts: "./fonts.css";
+@value title-font-size, subtitle-font-size, text-font-size from fonts;
+
 #releaseAndFact .contentBorder {
   flex-basis: 30%;
   max-width: 30%;
@@ -12,6 +15,15 @@
 
 #releaseAndFact .contentBorder h2 {
  text-align: center;
+ font-size: title-font-size;
+}
+
+#releaseAndFact .contentBorder h4 {
+ font-size: subtitle-font-size;
+}
+
+#releaseAndFact .contentBorder p {
+ font-size: text-font-size;
 }
 
 #releaseAndFact .contentBorder img {
@@ -31,6 +43,8 @@
   background-color: white;
 }
 
-#releaseAndFact .contentBorder.fact h4, #releaseAndFact .contentBorder.fact p {
+#releaseAndFact .contentBorder.fact h2,
+#releaseAndFact .contentBorder.fact h4,
+#releaseAndFact .contentBorder.fact p {
   color: black;
 }

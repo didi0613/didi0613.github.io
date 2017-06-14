@@ -1,6 +1,9 @@
 @value colors: "./colors.css";
 @value walmart-yellow, slogan-light-blue, slogan-border-grey from colors;
 
+@value fonts: "./fonts.css";
+@value banner-font-size from fonts;
+
 /* Banner */
 #banner .logoText {
   margin-top: 23px;
@@ -24,12 +27,15 @@
 
 #banner .slogan img {
   display: inline;
-  width: 120px;
+  width: 150px;
   margin-right: 10px;
 }
 
 #banner .slogan h1 {
   display: inline;
+  font-size: banner-font-size;
+  text-align: center;
+  color: walmart-yellow;
 }
 
 #banner .headerInfo {
@@ -41,12 +47,6 @@
   padding-right: 0;
   text-align: center;
   color: slogan-light-blue;
-}
-
-/* Text Color */
-#banner h1 {
-  text-align: center;
-  color: walmart-yellow;
 }
 
 #banner blockquote{

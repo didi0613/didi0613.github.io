@@ -36,6 +36,7 @@ const ReleasesAndFact = () => {
         </Col>
         <Col xs={3} className={`${releaseAndFactStyles.contentBorder} ${releaseAndFactStyles.fact}`}>
           <img src={"http://4.bp.blogspot.com/-V6fDG4Lr-wU/TjGSYM3kPNI/AAAAAAAABF0/7T2YJ0ov8Kw/s1600/DidYouKnow_title.gif"} />
+          <h2>Fun Facts</h2>
           <h4>
             How many teeth does cow have?
           </h4>
@@ -56,7 +57,7 @@ const ReleasesAndFact = () => {
           <p>
             They are composed of rock, dust, ice and frozen gases such as carbon monoxide, carbon dioxide, methane, and ammonia. Sometimes called dirty snowballs, recent studies have shown that the ice of a comet is covered by a crust. Comets also contain a variety of organic compounds as well as the gases already mentioned.
           </p>
-          
+
           <h4>
             How long does it take to land on the ground when skydiving?
           </h4>
