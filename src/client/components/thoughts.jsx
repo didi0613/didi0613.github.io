@@ -5,13 +5,15 @@ import { Grid, Row, Col } from "react-flexbox-grid";
 import styles from "../styles/home.css";
 import thoughtsStyles from "../styles/thoughts.css";
 
+import thoughts from "../images/thoughts.png";
+
 const Thoughts = () => {
   return (
     <Grid id={thoughtsStyles.thoughts}>
       <Row>
         <Col sm={8} smOffset={2} xs={10} xsOffset={1} className={`${thoughtsStyles.thoughtsBorder} ${thoughtsStyles.feedback}`}>
           <h2>Food For Thoughts</h2>
-          <img src={"https://cdn2.iconfinder.com/data/icons/gunther/128/thoughts-128.png"} alt="" />
+          <img src={ thoughts } alt="" />
 
           <h4 className={thoughtsStyles.contentTitle}>Blog posts</h4>
           <p>
