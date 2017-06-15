@@ -75,30 +75,29 @@ const FunFacts = () => {
       <div className={releaseAndFactStyles.rank}>
         <Row>
           <Col xs><img src={rank1} /><p>checkout</p></Col>
-          <Col xs><p>169 commits, 4 days, 16 hours</p></Col>
+          <Col xs><p>169 commits, Thurdays, 4PM</p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank2} /><p>product</p></Col>
-          <Col xs><p>108 commits, 1 days, 15 hours</p></Col>
+          <Col xs><p>108 commits, Monday, 3PM </p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank3} /><p>grocery-redux</p></Col>
-          <Col xs><p>78 commits, 4 days, 11 hours</p></Col>
+          <Col xs><p>78 commits, Thursday, 11PM</p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank4} /><p>cart</p></Col>
-          <Col xs><p>71 commits, 2 days, 14 hours</p></Col>
+          <Col xs><p>71 commits, Tuesday, 2PM</p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank5} /><p>collections</p></Col>
-          <Col xs><p>46 commits, 3 days, 15 hours</p></Col>
+          <Col xs><p>46 commits, Wednesday, 3PM</p></Col>
         </Row>
       </div>
     </Col>
   );
 };
 
-FunFacts.propTypes = {
-};
+FunFacts.propTypes = {};
 
 export default FunFacts;
