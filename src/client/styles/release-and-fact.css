@@ -43,6 +43,10 @@
   background-color: white;
 }
 
+#releaseAndFact .contentBorder.fact .rank img {
+  width: 40px;
+}
+
 #releaseAndFact .contentBorder.fact h2,
 #releaseAndFact .contentBorder.fact h4,
 #releaseAndFact .contentBorder.fact p {
