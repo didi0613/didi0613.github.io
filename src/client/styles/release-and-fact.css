@@ -1,5 +1,5 @@
 @value colors: "./colors.css";
-@value walmart-yellow, walmart-blue, black, walmart-blue, walmart-yellow, white from colors;
+@value walmart-yellow, walmart-blue, black, white from colors;
 
 @value fonts: "./fonts.css";
 @value title-font-size, subtitle-font-size, text-font-size from fonts;
