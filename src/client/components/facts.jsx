@@ -8,6 +8,8 @@ import FunFactsImg from "../images/funfacts.gif";
 import rank1 from "../images/rank1.png";
 import rank2 from "../images/rank2.png";
 import rank3 from "../images/rank3.png";
+import rank4 from "../images/rank4.png";
+import rank5 from "../images/rank5.png";
 
 const FunFacts = () => {
   return (
@@ -18,50 +20,80 @@ const FunFacts = () => {
       <h4>
         Most Code Addtions:
       </h4>
-
-      <p className={releaseAndFactStyles.rank}>
+      <div className={releaseAndFactStyles.rank}>
         <Row>
-          <Col xs><img src={rank1} /> checkout</Col>
-          <Col xs>14990</Col>
+          <Col xs><img src={rank1} /><p>checkout</p></Col>
+          <Col xs><p>14,990</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank2} />article</Col>
-          <Col xs>14,048</Col>
+          <Col xs><img src={rank2} /><p>article</p></Col>
+          <Col xs><p>14,048</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank3} />home</Col>
-          <Col xs>10,096</Col>
+          <Col xs><img src={rank3} /><p>home</p></Col>
+          <Col xs><p>10,096</p></Col>
         </Row>
         <Row>
-          <Col xs>ow-checkout</Col>
-          <Col xs>3,605</Col>
+          <Col xs><img src={rank4} /><p>ow-checkout</p></Col>
+          <Col xs><p>3,605</p></Col>
         </Row>
         <Row>
-          <Col xs>product</Col>
-          <Col xs>3,004</Col>
+          <Col xs><img src={rank5} /><p>product</p></Col>
+          <Col xs><p>3,004</p></Col>
         </Row>
-      </p>
-
-      <h4>
-        What does moon smells like?
-      </h4>
-      <p>
-        Moon Dust Smells Like Spent Gunpowder. Today I found out Moon dust smells like spent gunpowder. This is according to the astronauts that have had the opportunity to smell fresh Moon dust that had been tracked into the lunar module after excursions out on the surface of the Moon.
-      </p>
+      </div>
 
       <h4>
-        Are comets made of ice?
+        Most Commits:
       </h4>
-      <p>
-        They are composed of rock, dust, ice and frozen gases such as carbon monoxide, carbon dioxide, methane, and ammonia. Sometimes called dirty snowballs, recent studies have shown that the ice of a comet is covered by a crust. Comets also contain a variety of organic compounds as well as the gases already mentioned.
-      </p>
+      <div className={releaseAndFactStyles.rank}>
+        <Row>
+          <Col xs><img src={rank1} /><p>back-to-school</p></Col>
+          <Col xs><p>68</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank2} /><p>grocery-electrode</p></Col>
+          <Col xs><p>62</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank3} /><p>gop-bath-migration</p></Col>
+          <Col xs><p>58</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank4} /><p>checkout</p></Col>
+          <Col xs><p>47</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank5} /><p>ow-checkout</p></Col>
+          <Col xs><p>33</p></Col>
+        </Row>
+      </div>
 
       <h4>
-        How long does it take to land on the ground when skydiving?
+        Time For Commits:
       </h4>
-      <p>
-        Freefall lasts about sixty seconds, depending a lot on body-weight, surface area, and a number of other factors. You will then have about five minutes under canopy to enjoy the view and the ride. In Chicagoland Skydiving Center's Super Twin Otter, it takes only about 12 - 15 minutes to get to 14,500 feet.
-      </p>
+      <div className={releaseAndFactStyles.rank}>
+        <Row>
+          <Col xs><img src={rank1} /><p>checkout</p></Col>
+          <Col xs><p>169 commits, 4 days, 16 hours</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank2} /><p>product</p></Col>
+          <Col xs><p>108 commits, 1 days, 15 hours</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank3} /><p>grocery-redux</p></Col>
+          <Col xs><p>78 commits, 4 days, 11 hours</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank4} /><p>cart</p></Col>
+          <Col xs><p>71 commits, 2 days, 14 hours</p></Col>
+        </Row>
+        <Row>
+          <Col xs><img src={rank5} /><p>collections</p></Col>
+          <Col xs><p>46 commits, 3 days, 15 hours</p></Col>
+        </Row>
+      </div>
     </Col>
   );
 };

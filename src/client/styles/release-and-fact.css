@@ -5,8 +5,8 @@
 @value title-font-size, subtitle-font-size, text-font-size from fonts;
 
 #releaseAndFact .contentBorder {
-  flex-basis: 30%;
-  max-width: 30%;
+  flex-basis: 32%;
+  max-width: 32%;
 
   border-radius: 10px;
   margin-top: 10px;
@@ -32,19 +32,29 @@
   margin-top: 10px;
 }
 
+/* Release Only */
 #releaseAndFact .contentBorder.release {
   border: 2px solid walmart-blue;
   background-color: walmart-blue;
 }
 
+/* Fun Facts Only */
 #releaseAndFact .contentBorder.fact {
   border: 2px solid walmart-blue;
-  margin-left: 6.5%;
+  margin-left: 2.5%;
   background-color: white;
 }
 
 #releaseAndFact .contentBorder.fact .rank img {
-  width: 40px;
+  width: 30px;
+  display: inline;
+}
+
+#releaseAndFact .contentBorder.fact .rank p {
+ font-size: text-font-size;
+ display: inline-block;
+ vertical-align: top;
+ margin-left: 10px;
 }
 
 #releaseAndFact .contentBorder.fact h2,
