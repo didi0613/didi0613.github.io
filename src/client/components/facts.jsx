@@ -75,23 +75,23 @@ const FunFacts = () => {
       <div className={releaseAndFactStyles.rank}>
         <Row>
           <Col xs><img src={rank1} /><p>checkout</p></Col>
-          <Col xs><p>169 commits, 4 days, 16 hours</p></Col>
+          <Col xs><p>169 commits, 4 days, <br/>16 hours</p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank2} /><p>product</p></Col>
-          <Col xs><p>108 commits, 1 days, 15 hours</p></Col>
+          <Col xs><p>108 commits, 1 days, <br/>15 hours</p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank3} /><p>grocery-redux</p></Col>
-          <Col xs><p>78 commits, 4 days, 11 hours</p></Col>
+          <Col xs><p>78 commits, 4 days, <br/>11 hours</p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank4} /><p>cart</p></Col>
-          <Col xs><p>71 commits, 2 days, 14 hours</p></Col>
+          <Col xs><p>71 commits, 2 days, <br/>14 hours</p></Col>
         </Row>
         <Row>
           <Col xs><img src={rank5} /><p>collections</p></Col>
-          <Col xs><p>46 commits, 3 days, 15 hours</p></Col>
+          <Col xs><p>46 commits, 3 days, <br/>15 hours</p></Col>
         </Row>
       </div>
     </Col>
