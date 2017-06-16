@@ -11,28 +11,35 @@ const Release = () => {
       <h2>New Releases</h2>
       <img src={ ReleaseImg } />
 
-      <h4>New Component Archetype</h4>
+      <h4>New Open Source Component Archetype</h4>
       <p>
-        Electrode Component Archetype helps developers to quickly build react components.
-        Recently, electrode team released a new component archetype which applied by Lerna structure to manage and demo components separately.
-        With the new structure, developers are no longer facing chicken-egg issues caused by demoing and testing react component within component itself.
-        <br />In the latest Electrode Component Archetype structure, we removed demo-server,
-        imported components from packages and demoed components through demo app.
-        We keep providing babel, eslint, karma and webpack config files as before, files can be found under config folder.
-        If you want to try out the latest electrode component, please generate them by the latest electrode-generator.
+        <a target="_blank" href="https://github.com/electrode-io/electrode/tree/master/packages/electrode-archetype-react-component">Electrode Component Archetype</a> helps developers to quickly build react components.
+          Recently, electrode team made a significant restructure to the component directory using Lerna to manage component structure.
+          With the new structure you can have multiple components inside of package directory and a single demo app to test all the components.
+          Generally you keep one component in one repo, but you can have multiple smaller components that complement each other.
+
+        <br /><br />In addition, we moved demo-server to a directory outside of the packages, imported components from packages and demoed components through demo app.
+          If you want to try out the latest electrode component, please generate them by the latest <a target="_blank" href="https://github.com/electrode-io/electrode/tree/master/packages/generator-electrode"> electrode-generator.</a>
       </p>
 
       <h4>
         Eletrode Generator
       </h4>
       <p>
-        Electrode provides developers with generators that generate an electrode application or component for them. The Open source generator generator-electrode contains an application generator yo electrode, a component generator yo electrode:component . With the new archetype structure, there is a generator specifically for adding more components to an existing repoyo electrode:component-add.
-        The same functionality is extended by the walmart electrode generator @walmart/ generator-wml-electrode. This generator provides functionality specific to walmart such as adding a swapi-client to your app using yo @walmart/wml-electrode:add-swapi-client. Check out the latest generator by installing them using npm install -g @walmart/generator-wml-electrode.
+        Electrode provides developers with generators that generate an electrode application or component for them.
+        The Open source generator generator-electrode contains an application generator yo electrode, a component generator yo electrode:component.
+        With the new archetype structure, there is a generator specifically for adding more components to an existing repoyo electrode:component-add.
+        <br /><br />The same functionality is extended by the walmart electrode generator @walmart/ generator-wml-electrode.
+        This generator provides functionality specific to walmart such as adding a swapi-client to your app using yo @walmart/wml-electrode:add-swapi-client.
+        Check out the latest generator by installing them using npm install -g @walmart/generator-wml-electrode.
       </p>
 
       <h4>Gitbook</h4>
       <p>
-        Gitbook
+        Gitbook is a modern customizable documentation format and toolchain using Git and Markdown.
+        <br /><br />We recently converted our <a target="_blank" href="https://electrode.gitbooks.io/electrode/content/"> open source documentation </a> to the gitbook format and hosted on their servers.
+          You can access it anywhere with a browser.
+          We also have an internal server hosting our <a target="_blank" href="http://gitbook.qa.walmart.com/books/electrode-dev-guide/"> internal documentation </a> that's in gitbook format.
       </p>
     </Col>
   );
