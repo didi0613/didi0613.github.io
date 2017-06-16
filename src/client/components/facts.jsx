@@ -22,23 +22,28 @@ const FunFacts = () => {
       </h4>
       <div className={releaseAndFactStyles.rank}>
         <Row>
-          <Col xs><img src={rank1} /><p>checkout</p></Col>
+          <Col><img src={rank1} /></Col>
+          <Col xs><p>checkout</p></Col>
           <Col xs><p>14,990</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank2} /><p>article</p></Col>
+          <Col><img src={rank2} /></Col>
+          <Col xs><p>article</p></Col>
           <Col xs><p>14,048</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank3} /><p>home</p></Col>
+          <Col><img src={rank3} /></Col>
+          <Col xs><p>home</p></Col>
           <Col xs><p>10,096</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank4} /><p>ow-checkout</p></Col>
+          <Col><img src={rank4} /></Col>
+          <Col xs><p>ow-checkout</p></Col>
           <Col xs><p>3,605</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank5} /><p>product</p></Col>
+          <Col><img src={rank5} /></Col>
+          <Col xs><p>product</p></Col>
           <Col xs><p>3,004</p></Col>
         </Row>
       </div>
@@ -48,23 +53,28 @@ const FunFacts = () => {
       </h4>
       <div className={releaseAndFactStyles.rank}>
         <Row>
-          <Col xs><img src={rank1} /><p>back-to-school</p></Col>
+          <Col><img src={rank1} /></Col>
+          <Col xs><p>back-to-school</p></Col>
           <Col xs><p>68</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank2} /><p>grocery-electrode</p></Col>
+          <Col><img src={rank2} /></Col>
+          <Col xs><p>grocery-electrode</p></Col>
           <Col xs><p>62</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank3} /><p>gop-bath-migration</p></Col>
+          <Col><img src={rank3} /></Col>
+          <Col xs><p>gop-bath-migration</p></Col>
           <Col xs><p>58</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank4} /><p>checkout</p></Col>
+          <Col><img src={rank4} /></Col>
+          <Col xs><p>checkout</p></Col>
           <Col xs><p>47</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank5} /><p>ow-checkout</p></Col>
+          <Col> <img src={rank5} /></Col>
+          <Col xs><p>ow-checkout</p></Col>
           <Col xs><p>33</p></Col>
         </Row>
       </div>
@@ -74,24 +84,29 @@ const FunFacts = () => {
       </h4>
       <div className={releaseAndFactStyles.rank}>
         <Row>
-          <Col xs><img src={rank1} /><p>checkout</p></Col>
-          <Col xs><p>169 commits, 4 days, <br/>16 hours</p></Col>
+          <Col><img src={rank1} /></Col>
+          <Col xs><p>checkout</p></Col>
+          <Col xs><p>169 commits, 4 days, 16 hours</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank2} /><p>product</p></Col>
-          <Col xs><p>108 commits, 1 days, <br/>15 hours</p></Col>
+          <Col><img src={rank2} /></Col>
+          <Col xs><p>product</p></Col>
+          <Col xs><p>108 commits, 1 days, 15 hours</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank3} /><p>grocery-redux</p></Col>
-          <Col xs><p>78 commits, 4 days, <br/>11 hours</p></Col>
+          <Col><img src={rank3} /></Col>
+          <Col xs><p>grocery-redux</p></Col>
+          <Col xs><p>78 commits, 4 days, 11 hours</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank4} /><p>cart</p></Col>
-          <Col xs><p>71 commits, 2 days, <br/>14 hours</p></Col>
+          <Col><img src={rank4} /></Col>
+          <Col xs><p>cart</p></Col>
+          <Col xs><p>71 commits, 2 days, 14 hours</p></Col>
         </Row>
         <Row>
-          <Col xs><img src={rank5} /><p>collections</p></Col>
-          <Col xs><p>46 commits, 3 days, <br/>15 hours</p></Col>
+          <Col><img src={rank5} /></Col>
+          <Col xs><p>collections</p></Col>
+          <Col xs><p>46 commits, 3 days, 15 hours</p></Col>
         </Row>
       </div>
     </Col>

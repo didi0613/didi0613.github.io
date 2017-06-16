@@ -45,6 +45,10 @@
   background-color: white;
 }
 
+#releaseAndFact .contentBorder.fact .rank {
+  margin-left: 10px;
+}
+
 #releaseAndFact .contentBorder.fact .rank img {
   width: 30px;
   display: inline;
