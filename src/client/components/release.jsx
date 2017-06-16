@@ -37,7 +37,9 @@ const Release = () => {
       <h4>Gitbook</h4>
       <p>
         Gitbook is a modern customizable documentation format and toolchain using Git and Markdown.
-        <br /><br />Electrode team recently released a new version of open source electrode platform documentations, written and hosted by gitbook, which can be used either on your computer for building local books or on GitBook.com for hosting them.
+        <br /><br />We recently converted our <a target="_blank" href="https://electrode.gitbooks.io/electrode/content/"> open source documentation </a> to the gitbook format and hosted on their servers.
+          You can access it anywhere with a browser.
+          We also have an internal server hosting our <a target="_blank" href="http://gitbook.qa.walmart.com/books/electrode-dev-guide/"> internal documentation </a> that's in gitbook format.
       </p>
     </Col>
   );
