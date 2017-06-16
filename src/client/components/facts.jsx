@@ -50,21 +50,21 @@ const FunFacts = () => {
       <Ranks
         title="Time For Commits:"
         rank1name="checkout"
-        rank1stats="169 commits, 4 days, 16 hours"
+        rank1stats="169 commits, Thurday, 4PM"
         rank2name="gproduct"
-        rank2stats="108 commits, 1 days, 15 hours"
+        rank2stats="108 commits, Monday, 3PM"
         rank3name="grocery-redux"
-        rank3stats="78 commits, 4 days, 11 hours"
+        rank3stats="78 commits, Thursday, 11AM"
         rank4name="cart"
-        rank4stats="71 commits, 2 days, 14 hours"
+        rank4stats="71 commits, Tuesday, 2PM"
         rank5name="collections"
-        rank5stats="46 commits, 3 days, 15 hours"
+        rank5stats="46 commits, Wednesday, 3PM"
       />
+
     </Col>
   );
 };
 
-FunFacts.propTypes = {
-};
+FunFacts.propTypes = {};
 
 export default FunFacts;
