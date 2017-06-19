@@ -2,7 +2,7 @@
 @value walmart-yellow, walmart-blue, white, black, feedback-text-grey from colors;
 
 @value fonts: "./fonts.css";
-@value title-font-size, subtitle-font-size, text-font-size from fonts;
+@value title-font-size, subtitle-font-size, text-font-size, author-font-size from fonts;
 
 /* Sections */
 #thoughts .thoughtsBorder {
@@ -50,4 +50,15 @@
 #thoughts .thoughtsBorder.feedback p,
 #thoughts .thoughtsBorder.feedback h4.contentTitle {
   text-align: left;
+}
+
+#thoughts .thoughtsBorder.feedback img.blog {
+  width: 100%;
+  margin: 0;
+}
+
+#thoughts .thoughtsBorder.feedback p.feedbackAuthor {
+  text-align: right;
+  font-size: author-font-size;
+  margin-top: -20px;
 }
