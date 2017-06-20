@@ -38,6 +38,7 @@
 /* Text Alignment & Color */
 #thoughts .thoughtsBorder.feedback {
   background-color: walmart-yellow;
+  padding: 0 2%;
 }
 
 #thoughts .thoughtsBorder.feedback p,
@@ -50,6 +51,11 @@
 #thoughts .thoughtsBorder.feedback p,
 #thoughts .thoughtsBorder.feedback h4.contentTitle {
   text-align: left;
+}
+
+#thoughts .thoughtsBorder.feedback p.contentSubTitle {
+  font-weight: 800;
+  font-style: italic;
 }
 
 #thoughts .thoughtsBorder.feedback img.blog {
