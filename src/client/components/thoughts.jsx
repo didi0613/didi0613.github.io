@@ -16,15 +16,16 @@ const Thoughts = () => {
           <h2>Food For Thoughts</h2>
           <img src={ ThoughtsImg } alt="" />
 
-          <h4 className={thoughtsStyles.contentTitle}>Blog Posts</h4>
-          <p className={thoughtsStyles.contentSubTitle}>Alexander Grigoryan Blog Stats:</p>
-          <img className={thoughtsStyles.blog} src={ AlexBlog } alt="" />
+          <h4 className={thoughtsStyles.contentTitle}>Blog Posts & Stats</h4>
 
-          <p className={thoughtsStyles.contentSubTitle}>Joel Chen Blogs:</p>
+          <p className={thoughtsStyles.contentSubTitle}>Posts</p>
           <p>Optimizing HapiJS for Benchmarks: <a target="_blank" href="https://medium.com/@jchipnxd/optimizing-hapijs-for-benchmarks-e37f612670f7">link</a></p>
 
+
+          <p className={thoughtsStyles.contentSubTitle}>Stats:</p>
+          <img className={thoughtsStyles.blog} src={ AlexBlog } alt="" />
+
           <h4 className={thoughtsStyles.contentTitle}>Case Studies</h4>
-          <p>Tempo Core</p>
           <p>
             <a target="_blank" href="https://gecgithub01.walmart.com/electrode/tempo-core">Tempo-core </a> version 8 release is a major refactor that fixes many hidden problems.
             Key wins include a reduction of 100K in your app's JS bundle, properly refreshed quimby fallback static data and
