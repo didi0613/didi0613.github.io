@@ -1,0 +1,53 @@
+@value colors: "./colors.css";
+@value walmart-yellow, walmart-blue, white, black, feedback-text-grey, walmart-lighter-blue from colors;
+
+@value fonts: "./fonts.css";
+@value title-font-size, subtitle-font-size, text-font-size, author-font-size, content-subtitle-font-size from fonts;
+
+#team .thoughtsBorder {
+  border: 2px solid walmart-lighter-blue;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: walmart-lighter-blue;
+}
+
+#team .title {
+  text-align: center;
+}
+
+#team .content {
+  padding: 2%;
+}
+
+#team .content .contentLeft {
+  text-align: center;
+}
+
+#team .content .contentRight .contentSubtitle {
+  font-size: content-subtitle-font-size;
+}
+
+#team .content .contentRight {
+  padding-left: 2%;
+}
+
+#team .title,
+#team .content .contentLeft p,
+#team .content .contentRight h4,
+#team .content .contentRight p {
+  color: black;
+}
+
+#team .content .contentRight h4 {
+  margin-bottom: 2px;
+}
+
+#team .content .contentRight p{
+  margin: 2px 0;
+}
+
+#team img{
+  width: 100%;
+  border-radius: 10px;
+}

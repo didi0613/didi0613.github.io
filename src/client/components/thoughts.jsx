@@ -20,17 +20,10 @@ const Thoughts = () => {
 
           <p className={thoughtsStyles.contentSubTitle}>Posts</p>
           <p>Optimizing HapiJS for Benchmarks: <a target="_blank" href="https://medium.com/@jchipnxd/optimizing-hapijs-for-benchmarks-e37f612670f7">link</a></p>
-
+          <p>webpack optimization: <a target="_blank" href="https://medium.com/@jchipnxd/92b130334b6c">link</a></p>
 
           <p className={thoughtsStyles.contentSubTitle}>Stats:</p>
           <img className={thoughtsStyles.blog} src={ AlexBlog } alt="" />
-
-          <h4 className={thoughtsStyles.contentTitle}>Case Studies</h4>
-          <p>
-            <a target="_blank" href="https://gecgithub01.walmart.com/electrode/tempo-core">Tempo-core </a> version 8 release is a major refactor that fixes many hidden problems.
-            Key wins include a reduction of 100K in your app's JS bundle, properly refreshed quimby fallback static data and
-            no more huge resource draining but useless file system quimby cache.
-          </p>
 
           <h4 className={thoughtsStyles.contentTitle}>Feeback</h4>
           <p>

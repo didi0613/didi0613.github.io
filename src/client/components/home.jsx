@@ -6,6 +6,7 @@ import styles from "../styles/home.css";
 
 import Banner from "./banner";
 import ReleasesAndFact from "./release-and-fact";
+import Team from "./team";
 import Thoughts from "./thoughts";
 
 class Home extends React.Component {
@@ -19,6 +20,9 @@ class Home extends React.Component {
 
             {/* Releases and Fun Facts */}
             <ReleasesAndFact />
+
+            {/* Meet The Team */}
+            <Team />
 
             {/* Thoughts */}
             <Thoughts />
