@@ -61,7 +61,7 @@ const FunFacts = () => {
         rank5stats="46 commits, Wednesday, 3PM"
       />
 
-    <p>* All the stats are for the last two weeks</p>
+    <p className={releaseAndFactStyles.footer}>* All the stats are for the last two weeks</p>
     </Col>
 
   );

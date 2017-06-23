@@ -35,16 +35,25 @@
 #team .title,
 #team .content .contentLeft p,
 #team .content .contentRight h4,
+#team .content .contentRight span,
 #team .content .contentRight p {
   color: black;
 }
 
+#team .content .contentRight h4.hightlight,
+#team .content .contentRight span.hightlight,
+#team .content .contentRight p.hightlight {
+  color: walmart-blue;
+}
+
 #team .content .contentRight h4 {
   margin-bottom: 2px;
+  display: inline;
+  margin-right: 10px;
 }
 
 #team .content .contentRight p{
-  margin: 2px 0;
+  margin: 2px 0 20px;
 }
 
 #team img{
