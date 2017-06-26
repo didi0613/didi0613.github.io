@@ -20,13 +20,13 @@ const Team = () => {
               </Col>
               <Col xs className={teamStyles.contentRight}>
                 <p>
-                  Electrode team develops and support the Electrode platform that is powering the WalmartLabs eCommerce sites.
+                  Electrode team develops and supports the Electrode platform that is powering the Walmart eCommerce sites.
                 </p>
 
                 <h4>Sheng Di</h4>
                 <span className={teamStyles.contentSubtitle}>Software Engineer</span>
                 <p>
-                  Sheng thrives on finding ways to help consumers on resolving issues, sharing helpful documentations,
+                  Sheng thrives on finding ways to help consumers on resolving issues, sharing helpful documentation,
                   and always interested in connecting with new people. In her free time, she likes kpop dancing,
                   watching NBAs and attending music concerts.
                 </p>
@@ -35,7 +35,7 @@ const Team = () => {
                 <span className={`${teamStyles.contentSubtitle} ${teamStyles.hightlight}`}>Principal Architect</span>
                 <p className={teamStyles.hightlight}>
                   Joel is the architect and lead of Electrode team. In his free time, he enjoys spending time with
-                  his friends and family.
+                  his friends and family, and he is a 3 kids daddy.
                 </p>
 
                 <h4>Animesh Dutta</h4>
