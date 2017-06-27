@@ -35,7 +35,7 @@ const Team = () => {
                 <span className={`${teamStyles.contentSubtitle} ${teamStyles.hightlight}`}>Principal Architect</span>
                 <p className={teamStyles.hightlight}>
                   Joel is the architect and lead of Electrode team. In his free time, he enjoys spending time with
-                  his friends and family, and he is a 3 kids daddy.
+                  his friends, family, and especially his three children.
                 </p>
 
                 <h4>Animesh Dutta</h4>
