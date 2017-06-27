@@ -1,7 +1,9 @@
 import React from "react";
-import {Route} from "react-router";
+import {Route, hashHistory, Router} from "react-router";
 import Home from "./components/home";
 
 export const routes = (
-  <Route path="/home" component={Home}/>
+  <Router history = {hashHistory}>
+	 <Route path="/" component={Home}/>
+	</Router>
 );
