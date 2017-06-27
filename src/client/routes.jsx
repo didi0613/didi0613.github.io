@@ -4,6 +4,6 @@ import Home from "./components/home";
 
 export const routes = (
   <Router history = {hashHistory}>
-	 <Route path="/" component={Home}/>
+	 <Route path="/home" component={Home}/>
 	</Router>
 );
